@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  silver;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header { 
+    width: 90vw;
+    height: 15vh;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px grey;
+    padding-left: 60px;;
+}
+
+aside {
+    width: 15vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+section section {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+article{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px grey;
+}
+
+
+li {
+    border-bottom: 1px dotted gray;
+    margin: 5px;
+    padding-bottom: 2px;
+}
+
+a {
+    color:rgb(252, 3, 236);
+}
+
+h1,h2,h3,h4,h5 {
+    color: gray;
+}
+
+section span {
+    text-decoration: underline dotted;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;
+}
+
+h1 span{
+    color:rgb(252, 3, 236);
+}
+
+
+section section article:nth-child(odd){
+    padding:  5px 5px 5px 50px;
+}
+
+section section article:nth-child(even){
+    padding:  5px 50px 5px 5px;
+}
